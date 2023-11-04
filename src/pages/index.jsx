@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Psypher1&apos;s Next Starter</title>
+				<title>Psypher1 Next Starter</title>
 				<meta
 					name="description"
 					content="I prefer to work with my projects in a specific way. None of this shiny object stuff"
@@ -20,7 +20,8 @@ export default function Home() {
 					<h2 className="text-3xl  font-semibold">It runs on:</h2>
 					<ul className="prose-lg">
 						<li>
-							Nextjs <code>13.4.4</code>
+							Nextjs <code>13.4.4</code> with{" "}
+							<span className="font-bold">pages</span>
 						</li>
 						<li>
 							TailwindCSS <code>3.3.0</code>
@@ -29,6 +30,26 @@ export default function Home() {
 							Tailwind Typography <code>0.5.10</code>
 						</li>
 					</ul>
+				</section>
+
+				<section className="prose prose-invert w-1/2 mx-auto mt-12">
+					<h2>Why this starter</h2>
+					<ol>
+						<li>Pages makes more sense to me</li>
+						<li>
+							I don&apos;t like the app router
+							<ul>
+								<li>
+									I like clearly defined boundaries, which the app router throws
+									that away.
+								</li>
+								<li>
+									It&apos;s a shiny thing that&apos;s not ready. I am not a fan
+									of new shiny things.
+								</li>
+							</ul>
+						</li>
+					</ol>
 				</section>
 
 				<section className="mt-16 prose prose-invert w-1/2  mx-auto">
