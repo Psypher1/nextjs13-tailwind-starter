@@ -5,7 +5,7 @@
 To create an app using this starter
 
 ```bash
-npx create-next-app your-app-name -e					https://github.com/Psypher1/nextjs13-tailwind-starter
+npx create-next-app your-app-name -e https://github.com/Psypher1/nextjs13-tailwind-starter
 ```
 
 ## This template uses [TailwindCSS](https://tailwindcss.com/)!
